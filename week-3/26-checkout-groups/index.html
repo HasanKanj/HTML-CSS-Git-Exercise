@@ -39,19 +39,29 @@
           <form method="GET" id="checkout-form" class="checkout__form">
             <!-- Add the form fields here -->
             <fieldset>
-                       <legend>Billing Address</legend>
-                       <label>Address Line 1<input type="text" name="addressline1"/></label><br/>
-                       <label>Address Line 2<input type="text" name="addressline2"/></label><br/>
-                       <label>Postcode<input type="number" name="postcode"/></label><br/>
-                       <label>City<input type="text" name="city"/></label>
+              <legend>Billing Address</legend>
+              <label for="addressline1">Address Line 1</label>
+              <input id="addressline1" type="text" name="addressline1" /><br />
+
+              <label for="addressline2">Address Line 2</label><br />
+              <input id="addressline2" type="text" name="addressline2" />
+
+              <label for="postcode"
+                >Postcode <input id="postcode" type="number" name="postcode" /><br />
+              </label>
+
+              <label
+                >City<input id="city" type="text" name="city" />
+                <input id="city" type="text" name="city" /><br />
+              </label>
             </fieldset>
 
             <fieldset>
-                  <legend>Delivery Address</legend>
-                  <label>Address Line 1<input type="text" name="daddressline1"/></label><br/>
-                  <label>Address Line 2<input type="text" name="daddressline2"/></label><br/>
-                  <label>Postcode<input type="number" name="dpostcode"/></label> <br />
-                  <label>City<input type="text" name="dcity"/></label>
+              <legend>Delivery Address</legend>
+              <label>Address Line 1<input type="text" name="daddressline1"/></label><br />
+              <label>Address Line 2<input type="text" name="daddressline2"/></label><br />
+              <label>Postcode<input type="number" name="dpostcode"/></label> <br />
+              <label>City<input type="text" name="dcity"/></label>
             </fieldset>
 
             <button type="submit">Complete Purchase</button>
