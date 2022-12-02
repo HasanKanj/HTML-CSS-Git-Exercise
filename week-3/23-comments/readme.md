@@ -1,13 +1,44 @@
-# Blog Comments
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>23 - Blog Comments - HTML, CSS and Git Exercises</title>
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/week3-forms.css" />
+  </head>
 
-The `<textarea>` is used for text that takes up more than one line. In this exercise, you'll add a form with a `<textarea>` for someone to leave their comment. Follow the steps below to complete this exercise.
+  <body>
+    <div class="site-wrapper">
+      <main>
+        <article>
+          <h1>Our t-shirts are amazing!</h1>
+          <p>
+            Lorem ipsum dolor sit amet, aliquam laoreet quaestio in eum, ea tation dignissim vix. Ei
+            nec audire vocibus corrumpit. Ut quo facilisis adipiscing, malis sensibus abhorreant vel
+            ei. Hinc appareat dissentias pri at, impedit propriae ea eos. Modus feugait te duo, sit
+            noluisse salutatus maiestatis ea. Iisque volumus duo ex, deleniti aliquando quo ne.
+          </p>
+          <p>
+            Eos nibh maiorum voluptatibus ea, an labitur phaedrum sed, vis justo option intellegat
+            ad. Vel ut ferri dolores. Ad hinc moderatius scriptorem vim, utamur electram ad est, sed
+            no dicit homero dissentias. Usu qualisque concludaturque id, prodesset concludaturque eu
+            usu, ea est regione platonem. Et rebum theophrastus per, dicta aliquam adipisci pri cu,
+            ne quem justo mea.
+          </p>
+        </article>
 
-1. Find the line that says `<!-- Your comment form goes here -->` in this exercise's `index.html` file.
-2. Add a `<form>` with a `GET` method. _You do not need to add an `action` attribute to this form._
-3. Add a `<textarea>` field that is named `comment`.
-4. Don't forget to add a `<label>` so that users know what the field is for.
-5. Add a `<button>` that says "Send Comment".
+        <div class="comments">
+          <p>Add your comments and let us know what you think!</p>
 
-When you're done, it should look like this.
+          <!-- Your comment form goes here -->
+          <form method="GET"></form>
+          <label>Add You Message</label>
+          <textarea name="comment"></textarea>
+          <button>Send Comment</button>
+        </div>
+      </main>
+    </div>
 
-![Screenshot of the blog comment form solution](/images/23/solution.png)
+  </body>
+</html>
